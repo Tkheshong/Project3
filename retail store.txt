@@ -1,0 +1,82 @@
+2) For a retail store
+
+Create 8 classes to represent the Store with appropriate relationship
+
+Print the store details 
+
+1. Create a Store class (id, name, employees, departments)
+
+2. Create Employee class (id,name,email)
+
+- full time employee
+
+- part time employee
+
+3. Create Customer class (id, name)
+
+-online customer
+
+- in person customer
+
+4. Create Manager class (salary) 
+
+
+
+ 
+4. Create Vendor class (location)
+
+5. Create a Department class (id,name,loc)
+
+6. Create Order class (date)
+
+7. Create product class (perishable, non-perishable)
+
+
+
+ 
+Print the Hospital details
+
+
+
+public class Employee {
+    private String name;
+    private String email;
+    private int ID;
+}
+
+}
+public class Department {
+    private String name;
+    ArrayList <Employee> empList = new ArrayList <Employee>();
+
+}
+
+public class Store {
+    private String name;
+    ArrayList <Department> DepartList = new ArrayList <Department>();
+}
+
+public class Manager extends Employee {
+   private int salary
+	
+}
+
+public class Customer {
+   private type;
+ ArrayList <Order> ord = new ArrayList <Order>(); 	
+
+}
+
+public class Product {
+   private String name;
+   private int quantity;
+}
+
+public class Vendor {
+   private String name;
+   ArrayList <Product> prod = new ArrayList <Product>(); 
+}
+
+public class Order extends Product{
+   private date	
+}
